@@ -19,6 +19,38 @@ public class Student
 		this.theoreticalPoint = theoreticalPoint;
 		this.practicePoint = practicePoint;
 	}
+	
+	public int getCode() {
+		return code;
+	}
+
+	public void setCode(int code) {
+		this.code = code;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public float getTheoreticalPoint() {
+		return theoreticalPoint;
+	}
+
+	public void setTheoreticalPoint(float theoreticalPoint) {
+		this.theoreticalPoint = theoreticalPoint;
+	}
+
+	public float getPracticePoint() {
+		return practicePoint;
+	}
+
+	public void setPracticePoint(float practicePoint) {
+		this.practicePoint = practicePoint;
+	}
 
 	public float getMediumPoint()
 	{
